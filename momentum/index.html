@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+
+    
+    <div class="header__lang">
+      <div class="header__lang-btn-wrapper">
+          <button class="header__lang-btn header__en">EN</button>
+      </div>
+      <div class="header__lang-btn-wrapper">
+          <button class="header__lang-btn header__ru">RU</button>
+      </div>
+  </div>
+
+
+
+
+    <div class="weather">
+      
+      <input value="Minsk" placeholder="[Enter city]" type="text" class="city" />
+      
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    
+    <div class="footer__bottom">
+      <div class="footer__github">
+          <a href="https://github.com/Andrey-Molosh" target="_blank" class="footer__gh-link">Andrey-Molosh</a>
+      </div>
+      <div class="footer__settings">
+          <button class="footer__settings-btn"></button>
+      </div>
+      <div class="footer__rs">
+          <a href="https://rs.school/" target="_blank" class="footer__gh-link">
+              <img src="./assets/img/rs-school.svg" alt="RS School" class="footer__rs-img">
+          </a>
+      </div>
+  </div>
+
+  </footer>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
